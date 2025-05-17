@@ -14,6 +14,7 @@ export function useGoogleLogin () {
             router.push(response.url);
         } else {
             // Handle the error
+            console.error(response.message);
             alert('Não foi possível fazer login com o Google. Tente novamente.');
         }
     }

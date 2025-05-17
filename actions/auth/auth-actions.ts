@@ -1,4 +1,4 @@
-'use server';
+'use service';
 
 import {AuthService} from '../../services/auth/auth-services';
 import { GoogleLogin } from '../../types/auth';

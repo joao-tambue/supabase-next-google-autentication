@@ -1,3 +1,5 @@
+'use service';
+
 import { GoogleLogin } from "../../types/auth";
 import { createClient } from '../../utils/supabase/client';
 
